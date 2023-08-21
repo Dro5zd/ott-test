@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {device} from '../../styles/mixins';
 import {colors} from "../../styles/colors";
 
-export const NavWrapper = styled.div`
+export const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;

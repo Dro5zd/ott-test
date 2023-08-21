@@ -8,8 +8,8 @@ export const MainContainer = styled.div`
 
   ${device.tablet} {
     padding: 40px;
-  } 
-  
+  }
+
   ${device.tabletLandscape} {
     padding: 48px;
   }
@@ -17,7 +17,7 @@ export const MainContainer = styled.div`
   ${device.desktop} {
     padding: 172px;
   }
-  
+
   ${device.ultraWide} {
     padding: 229px;
   }

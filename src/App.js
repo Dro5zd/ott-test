@@ -1,12 +1,13 @@
 import {GlobalStyles} from "./styles/GlobalStyles";
-import {Header} from "./sections/Header/Header";
+import {Hero} from "./sections/Hero/Hero";
+import {Header} from "./components/Header/Header";
 
 function App() {
     return (
         <>
             <GlobalStyles/>
             <Header/>
-
+            <Hero/>
         </>
     );
 }

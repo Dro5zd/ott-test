@@ -1,13 +1,13 @@
 import React from 'react';
-import {Logo, AuthBtn, NavWrapper, SocialLogo, SocialWrapper, AuthBtnWrapper} from "./Nav.styled";
+import {Logo, AuthBtn, SocialLogo, SocialWrapper, AuthBtnWrapper, StyledHeader} from "./Header.styled";
 import logo from '../../assets/icons/main-logo.png';
 import facebook from '../../assets/icons/fb.svg';
 import telegram from '../../assets/icons/telegram.svg';
 
-export const Nav = () => {
+export const Header = () => {
     return (
         <>
-            <NavWrapper>
+            <StyledHeader>
                 <Logo src={logo} alt={'Main logo'}/>
                 <AuthBtnWrapper>
                     <SocialWrapper>
@@ -17,7 +17,7 @@ export const Nav = () => {
                     <AuthBtn type='register'>Регистрация</AuthBtn>
                     <AuthBtn type='login'>Войти</AuthBtn>
                 </AuthBtnWrapper>
-            </NavWrapper>
+            </StyledHeader>
         </>
     );
 };
