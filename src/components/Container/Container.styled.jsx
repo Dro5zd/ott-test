@@ -4,16 +4,21 @@ import {device} from '../../styles/mixins';
 export const MainContainer = styled.div`
   max-width: 100%;
   margin: 0 auto;
-
-  ${device.mobile} {
-    padding: 10px;
-  }
+  padding: 16px;
 
   ${device.tablet} {
-    padding: 20px;
+    padding: 40px;
+  } 
+  
+  ${device.tabletLandscape} {
+    padding: 48px;
   }
 
   ${device.desktop} {
-    padding: 30px;
+    padding: 172px;
+  }
+  
+  ${device.ultraWide} {
+    padding: 229px;
   }
 `;
