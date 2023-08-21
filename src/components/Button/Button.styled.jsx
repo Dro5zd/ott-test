@@ -23,7 +23,6 @@ export const StyledButton = styled.button`
       // background: ${colors.buttonActive};
       // border: 3px solid ${colors.buttonActive};
       // color: ${colors.background};
-    // cursor: pointer;
   }
 
   ${device.mobile} {
@@ -55,7 +54,7 @@ export const StyledButton = styled.button`
 
   ${device.ultraWide} {
     width: 530px;
-    margin-bottom: 218px;
+    margin-bottom: 194px;
     font-size: 26px;
     padding: 24px 40px;
   }
