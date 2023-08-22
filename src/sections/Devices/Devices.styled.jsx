@@ -3,6 +3,7 @@ import {device} from "../../styles/mixins";
 
 export const DevicesContainer = styled.div`
   position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +81,7 @@ export const DevicesTitle = styled.h2`
   }
 
   ${device.ultraWide} {
+    width: 715px;
     font-size: 52px;
     margin-bottom: 30px;
   }
