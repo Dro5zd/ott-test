@@ -5,7 +5,7 @@ import check from '../../assets/icons/check.svg';
 
 export const OfferList = styled.ul`
   margin-top: 24px;
-
+  
   ${device.mobile} {
     margin-top: 32px;
   }
@@ -46,9 +46,15 @@ export const OfferListItem = styled.li`
     margin-bottom: 21px;
   }
 
-  ${device.ultraWide} {
-    width: 245px;
+  ${device.desktop} {
+    width: 257px;
     font-size: 20px;
     margin-bottom: 20px;
+  } 
+  
+  ${device.ultraWide} {
+    width: 323px;
+    font-size: 26px;
+    margin-bottom: 26px;
   }
 `;

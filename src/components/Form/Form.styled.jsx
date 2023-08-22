@@ -12,7 +12,7 @@ export const StyledForm = styled.form`
   
   ${device.mobile} {
     width: 295px;
-    margin-bottom: 114px;
+    //margin-bottom: 114px;
   }
   
   ${device.tablet} {

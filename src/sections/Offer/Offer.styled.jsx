@@ -29,6 +29,7 @@ export const OfferContainer = styled.div`
   ${device.tabletLandscape} {
     margin-top: 48px;
     background: ${`url(${frameTV})`} no-repeat center top;
+    padding-top: 20px;
   }
 
   ${device.desktop} {
@@ -36,6 +37,7 @@ export const OfferContainer = styled.div`
   }
 
   ${device.ultraWide} {
+    padding-top: 28px;
     margin-top: 60px;
     background: ${`url(${frameU})`} no-repeat center top;
   }

@@ -3,6 +3,7 @@ import {Hero} from "./sections/Hero/Hero";
 import {Header} from "./components/Header/Header";
 import {HeroBg} from "./sections/Hero/Hero.styled";
 import {Offer} from "./sections/Offer/Offer";
+import {TvChannels} from "./sections/TVChannels/TVChannels";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Hero/>
                 <Offer/>
             </HeroBg>
+            <TvChannels/>
         </>
     );
 }

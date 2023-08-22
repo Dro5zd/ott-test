@@ -29,6 +29,14 @@ export const StyledHeader = styled.header`
   }
 `;
 
+export const LogoLink = styled.a`
+  margin-right: auto;
+
+  ${device.desktop} {
+    margin-right: 80px;
+  }
+`;
+
 export const Logo = styled.img`
   width: 56px;
 
@@ -45,7 +53,7 @@ export const Logo = styled.img`
   }
 `;
 
-export const SocialWrapper = styled.div`
+export const SocialList = styled.ul`
   display: none;
   gap: 24px;
   margin-right: 16px;
@@ -57,6 +65,19 @@ export const SocialWrapper = styled.div`
   ${device.ultraWide} {
     gap: 16px;
   }
+`;
+export const SocialListItem = styled.li`
+  display: flex;
+  align-items: center;
+  ${device.tablet} {
+  }
+
+  ${device.ultraWide} {
+  }
+`;
+
+export const SocialLink = styled.a`
+  
 `;
 
 
