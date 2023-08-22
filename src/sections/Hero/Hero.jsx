@@ -1,5 +1,5 @@
 import React from 'react';
-import {HeroContainer, HeroImg, HeroSubTitle, HeroTitle} from "./Hero.styled";
+import { HeroContainer, HeroImg, HeroSubTitle, HeroTitle} from "./Hero.styled";
 import {Button} from "../../components/Button/Button";
 import heroImg from '../../assets/images/hero-picture.png';
 import {Features} from "../../components/Features/Features";

@@ -6,10 +6,11 @@ export const FeaturesList = styled.ul`
   display: none;
 
   ${device.tablet} {
+    width: 100%;
     gap: 24px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 24px 40px 41px 0;
   }
 
@@ -19,7 +20,7 @@ export const FeaturesList = styled.ul`
   }
 
   ${device.desktop} {
-    gap: 32px;
+    //gap: 32px;
     padding: 48px 172px 56px 0;
   }
 
@@ -100,7 +101,7 @@ export const FeatureSubTitle = styled.span`
 
   ${device.tabletLandscape} {
     display: block;
-    padding: 0 8px 0 0;
+    padding: 0 17px 0 0;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;

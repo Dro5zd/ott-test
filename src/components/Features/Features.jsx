@@ -39,16 +39,16 @@ const features = [
 export const Features = () => {
 
     return (
-            <FeaturesList>
-                {features.map(p => {
-                    return (
-                        <FeatureItem key={p.id}>
-                            <FeatureImg src={p.img} alt=""/>
-                            <FeatureTitle>{p.title}</FeatureTitle>
-                            <FeatureSubTitle>{p.subTitle}</FeatureSubTitle>
-                        </FeatureItem>
-                    )
-                })}
-            </FeaturesList>
+        <FeaturesList>
+            {features.map(p => {
+                return (
+                    <FeatureItem key={p.id}>
+                        <FeatureImg src={p.img} alt=""/>
+                        <FeatureTitle>{p.title}</FeatureTitle>
+                        <FeatureSubTitle>{p.subTitle}</FeatureSubTitle>
+                    </FeatureItem>
+                )
+            })}
+        </FeaturesList>
     );
 };

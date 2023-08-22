@@ -19,7 +19,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: "Inter", sans-serif;
-    background-color: #1F1F1F;
+    background-color: #131212;
     color: ${colors.fontPrimary};
     font-weight: 400;
     font-size: 16px;

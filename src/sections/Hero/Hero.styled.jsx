@@ -1,6 +1,45 @@
 import styled from 'styled-components';
 import {device} from '../../styles/mixins';
 import {colors} from "../../styles/colors";
+import mainBG from '../../assets/images/hero-bg.png';
+import mainBGM from '../../assets/images/hero-bg-mobile.png';
+import mainBGT from '../../assets/images/hero-bg-tablet.png';
+import mainBGTV from '../../assets/images/hero-bg-tablet-vert.png';
+import mainBGD from '../../assets/images/hero-bg-desktop.png';
+import mainBGU from '../../assets/images/hero-bg-ultra.png';
+import bat from '../../assets/images/bat.png';
+import batT from '../../assets/images/bat-t.png';
+import batU from '../../assets/images/bat-u.png';
+
+export const HeroBg = styled.div`
+  background: ${`url(${bat})`} no-repeat 0 271px fixed, ${`url(${mainBG})`} no-repeat;
+  width: 100%;
+  background-size: 100%;
+  
+  ${device.mobile} {
+    background: ${`url(${bat})`} no-repeat 0 265px, ${`url(${mainBGM})`} no-repeat;
+    background-size: 100%;
+  }
+  ${device.tablet} {
+    background: ${`url(${batT})`} no-repeat 0 308px, ${`url(${mainBGT})`} no-repeat;
+    background-size: 100%;
+  }
+
+  ${device.tabletLandscape} {
+    background: ${`url(${batT})`} no-repeat 0 378px, ${`url(${mainBGTV})`} no-repeat;
+    background-size: 100%;
+  }
+
+  ${device.desktop} {
+    background: ${`url(${batU})`} no-repeat 0 405px, ${`url(${mainBGD})`} no-repeat;
+    background-size: 100%;
+  }
+
+  ${device.ultraWide} {
+    background: ${`url(${batU})`} no-repeat 0 548px, ${`url(${mainBGU})`} no-repeat;
+    background-size: 100%;
+  }
+`;
 
 export const HeroContainer = styled.div`
   position: relative;
@@ -9,6 +48,7 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 
   ${device.tablet} {
     align-items: flex-start;
