@@ -152,7 +152,7 @@ export const BtnWrapper = styled.div`
 
 export const ShowAllBtn = styled.button`
   display: flex;
-  width: 129px;
+  width: max-content;
   align-items: center;
   font-size: 14px;
   font-style: normal;

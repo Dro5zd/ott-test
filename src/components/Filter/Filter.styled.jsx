@@ -50,7 +50,7 @@ export const FilterButton = styled.button`
   border-radius: 5px;
   border: 2px solid ${({active}) => (active === true ? 'red' : 'rgba(255, 255, 255, 0.80)')};;
   background: ${({active}) => (active === true ? 'red' : 'transparent')};
- color: ${colors.fontPrimary};
+  color: ${colors.fontPrimary};
   font-size: ${({active}) => (active === true ? '16px' : '15px')};
   font-weight: ${({active}) => (active === true ? '500' : '400')};
   line-height: 150%;
@@ -58,6 +58,7 @@ export const FilterButton = styled.button`
   ${device.mobile} {
     font-size: 16px;
   }
+
   ${device.tablet} {
     font-size: 16px;
     padding: 12px 18px;
@@ -65,14 +66,14 @@ export const FilterButton = styled.button`
 
   ${device.tabletLandscape} {
     font-size: 18px;
-    
+
   }
 
   ${device.desktop} {
     font-size: 16px;
     //margin-bottom: 20px;
-  } 
-  
+  }
+
   ${device.ultraWide} {
     font-size: 20px;
     padding: 16px 24px;
