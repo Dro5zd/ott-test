@@ -68,6 +68,9 @@ export const QuestionsListItem = styled.li`
     &:nth-child(3n) {
       padding-bottom: 48px;
     }
+    &:nth-child(n + 4) {
+      margin-left: auto;
+    }
   }
 
   ${device.desktop} {
@@ -76,6 +79,9 @@ export const QuestionsListItem = styled.li`
 
     &:nth-child(3n) {
       padding-bottom: 48px;
+    }
+    &:nth-child(n + 4) {
+      margin-left: auto;
     }
   }
 
@@ -86,6 +92,8 @@ export const QuestionsListItem = styled.li`
     &:nth-child(3n) {
       padding-bottom: 100px;
     }
+
+   
 
   }
 `;

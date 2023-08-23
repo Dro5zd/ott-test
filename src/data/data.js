@@ -17,6 +17,11 @@ import platformLogo1 from "../assets/icons/Samsung-logo.svg";
 import platformLogo2 from "../assets/icons/apple-ios-logo.svg";
 import platformLogo3 from "../assets/icons/Android_tv_logo.svg";
 import platformLogo4 from "../assets/icons/LG-smart-logo.svg";
+import paymentsLogo1 from "../assets/icons/visa.svg";
+import paymentsLogo2 from "../assets/icons/mastercard.svg";
+import paymentsLogo3 from "../assets/icons/freeKassa.png";
+import paymentsLogo4 from "../assets/icons/paysera.svg";
+import paymentsLogo5 from "../assets/icons/sepa.svg";
 
 export const filters = [
     {
@@ -198,6 +203,35 @@ export const platforms = [
 
 ]
 
+
+export const payments = [
+    {
+        id: nanoid(),
+        name: 'Visa',
+        logo: paymentsLogo1
+    },
+    {
+        id: nanoid(),
+        name: 'Mastercard',
+        logo: paymentsLogo2
+    },
+    {
+        id: nanoid(),
+        name: 'Free Kassa',
+        logo: paymentsLogo3
+    },
+    {
+        id: nanoid(),
+        name: 'Paysera',
+        logo: paymentsLogo4
+    },
+    {
+        id: nanoid(),
+        name: 'Sepa',
+        logo: paymentsLogo5
+    },
+
+]
 export const questions = [
     {
         id: nanoid(),
@@ -229,5 +263,33 @@ export const questions = [
         question: 'Как работает бесплатный тестовый период?',
         answer: ''
     },
+]
+
+export const links = [
+    {
+        id: nanoid(),
+        title: 'О нас',
+    },
+    {
+        id: nanoid(),
+        title: 'Пользовательское соглашение',
+    },
+    {
+        id: nanoid(),
+        title: 'Политика конфиденциальности',
+    },
+    {
+        id: nanoid(),
+        title: 'ТВ-Каналам',
+    },
+    {
+        id: nanoid(),
+        title: 'Проверка скорости',
+    },
+    {
+        id: nanoid(),
+        title: 'Правила оформленмя подписки',
+    },
+
 ]
 
