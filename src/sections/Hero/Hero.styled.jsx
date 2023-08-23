@@ -10,34 +10,37 @@ import mainBGU from '../../assets/images/hero-bg-ultra.png';
 import bat from '../../assets/images/bat.png';
 import batT from '../../assets/images/bat-t.png';
 import batU from '../../assets/images/bat-u.png';
+import webU from '../../assets/images/web-u.png';
+import channelBGU from '../../assets/images/channel-bg-u.png';
+import channelBGM from '../../assets/images/channel-bg-m.png';
 
 export const HeroBg = styled.div`
-  background: ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBG})`} no-repeat;
+  background: ${`url(${webU})`} no-repeat left 1285px, ${`url(${channelBGM})`} no-repeat left 550px, ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBG})`} no-repeat;
   width: 100%;
-  background-size: 100%;
+  background-size: 60%, 100%, 100%, 100%;
   
   ${device.mobile} {
-    background: ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBGM})`} no-repeat;
-    background-size: 100%;
+    background: ${`url(${webU})`} no-repeat left 1385px, ${`url(${channelBGM})`} no-repeat left 550px, ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBGM})`} no-repeat;
+    background-size: 61%, 100%, 100%, 100%;
   }
   ${device.tablet} {
-    background: ${`url(${batT})`} no-repeat 0 312px, ${`url(${mainBGT})`} no-repeat;
-    background-size: 100%;
+    background: ${`url(${webU})`} no-repeat left 1190px, ${`url(${channelBGU})`} no-repeat left 550px, ${`url(${batT})`} no-repeat 0 312px, ${`url(${mainBGT})`} no-repeat;
+    background-size: 41%, 150%, 100%, 100%;
   }
 
   ${device.tabletLandscape} {
-    background: ${`url(${batT})`} no-repeat 0 396px, ${`url(${mainBGTV})`} no-repeat;
-    background-size: 100%;
+    background: ${`url(${webU})`} no-repeat left 1350px, ${`url(${channelBGU})`} no-repeat left 900px, ${`url(${batT})`} no-repeat 0 396px, ${`url(${mainBGTV})`} no-repeat;
+    background-size: 41%, 110%, 100%, 100%;
   }
 
   ${device.desktop} {
-    background: ${`url(${batU})`} no-repeat 0 405px, ${`url(${mainBGD})`} no-repeat;
-    background-size: 100%;
+    background: ${`url(${webU})`} no-repeat left 1425px, ${`url(${channelBGU})`} no-repeat left 900px, ${`url(${batU})`} no-repeat 0 405px, ${`url(${mainBGD})`} no-repeat;
+    background-size: 34%, 100%, 100%, 100%;
   }
 
   ${device.ultraWide} {
-    background: ${`url(${batU})`} no-repeat 0 548px, ${`url(${mainBGU})`} no-repeat;
-    background-size: 100%;
+    background: ${`url(${webU})`} no-repeat left 1865px, ${`url(${channelBGU})`} no-repeat left 1000px, ${`url(${batU})`} no-repeat 0 548px, ${`url(${mainBGU})`} no-repeat;
+    background-size: 34%, 100%, 100%, 100%;
   }
 `;
 

@@ -36,7 +36,7 @@ export const DevicesTitleWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   width: 288px;
-  padding-bottom: 48px;
+  padding-bottom: 34px;
 
   ${device.mobile} {
     gap: 18px;

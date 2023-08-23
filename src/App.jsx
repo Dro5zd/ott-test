@@ -7,6 +7,7 @@ import {TvChannels} from "./sections/TVChannels/TVChannels";
 import {Devices} from "./sections/Devices/Devices";
 import {Faq} from "./sections/FAQ/Faq";
 import {Footer} from "./sections/Footer/Footer";
+import {FooterBg} from "./sections/Footer/Footer.styled";
 
 function App() {
     return (
@@ -16,11 +17,13 @@ function App() {
                 <Header/>
                 <Hero/>
                 <Offer/>
+                <TvChannels/>
+                <Devices/>
             </HeroBg>
-            <TvChannels/>
-            <Devices/>
-            <Faq/>
-            <Footer/>
+            <FooterBg>
+                <Faq/>
+                <Footer/>
+            </FooterBg>
         </>
     );
 }

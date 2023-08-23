@@ -4,7 +4,7 @@ import {device} from '../../styles/mixins';
 export const MainContainer = styled.div`
   max-width: 100%;
   margin: 0 auto;
-  padding: 16px 16px 0 16px;
+  padding: 32px 16px 0 16px;
 
   ${device.tablet} {
     padding: 40px 40px 0 40px;
