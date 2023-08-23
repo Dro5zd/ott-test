@@ -11,21 +11,20 @@ export const FeaturesList = styled.ul`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 40px 41px 0;
+    padding: 81px 40px 41px 0;
   }
 
   ${device.tabletLandscape} {
-    padding: 32px 48px 32px 0;
+    padding: 107px 48px 32px 0;
     align-items: flex-start;
   }
 
   ${device.desktop} {
-    //gap: 32px;
-    padding: 48px 172px 56px 0;
+    padding: 189px 172px 56px 0;
   }
 
   ${device.ultraWide} {
-    padding: 60px 228px 80px 0;
+    padding: 254px 228px 80px 0;
   }
 `;
 

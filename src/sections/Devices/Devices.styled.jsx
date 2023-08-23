@@ -7,11 +7,26 @@ export const DevicesContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 32px;
+  padding-top: 16px;
+
+  ${device.mobile} {
+    padding-top: 24px;
+  }
 
   ${device.tablet} {
     flex-direction: row;
-    padding-top: 30px;
+    padding-top: 42px;
+   
+  } 
+  ${device.tabletLandscape} {
+    padding-top: 83px;
+  }
+  ${device.desktop} {
+    padding-top: 68px;
+  } 
+  
+  ${device.ultraWide} {
+    padding-top: 110px;
   }
 `;
 
@@ -28,15 +43,13 @@ export const DevicesTitleWrapper = styled.div`
   }
 
   ${device.tablet} {
+    gap: 0;
     width: 410px;
     align-items: flex-start;
     padding: 0 40px;
-    gap: 24px;
+    //gap: 24px;
   }
-
-  ${device.tabletLandscape} {
-   
-  }
+  
 
   ${device.desktop} {
     padding: 0 172px;
@@ -132,28 +145,43 @@ export const DevicesImg = styled.img`
   }
 
   ${device.tablet} {
-    position: absolute;
-    top: 35px;
-    right: -180px;
-    width: 470px;
-    padding: 0;
-  }
-
-  ${device.tabletLandscape} {
-    top: 82px;
-    right: -176px;
-    width: 590px;
+    display: none;
   }
 
   ${device.desktop} {
+    position: absolute;
+    display: block;
     top: 63px;
-    right: 87px;
+    right: 73px;
     width: 590px;
   }
   
   ${device.ultraWide} {
-    top: 125px;
-    right: 116px;
+    top: 102px;
+    right: 100px;
     width: 786px;
+  }
+`;
+
+export const DevicesImgTablet = styled.img`
+ display: none;
+
+  ${device.tablet} {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: -43px;
+    width: 356px;
+    padding: 0;
+  }
+
+  ${device.tabletLandscape} {
+    top: 53px;
+    right: 0;
+    width: 435px;
+  }
+
+  ${device.desktop} {
+    display: none;
   }
 `;

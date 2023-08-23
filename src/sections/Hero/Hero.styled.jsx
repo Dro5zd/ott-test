@@ -12,21 +12,21 @@ import batT from '../../assets/images/bat-t.png';
 import batU from '../../assets/images/bat-u.png';
 
 export const HeroBg = styled.div`
-  background: ${`url(${bat})`} no-repeat 0 271px fixed, ${`url(${mainBG})`} no-repeat;
+  background: ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBG})`} no-repeat;
   width: 100%;
   background-size: 100%;
   
   ${device.mobile} {
-    background: ${`url(${bat})`} no-repeat 0 265px, ${`url(${mainBGM})`} no-repeat;
+    background: ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBGM})`} no-repeat;
     background-size: 100%;
   }
   ${device.tablet} {
-    background: ${`url(${batT})`} no-repeat 0 308px, ${`url(${mainBGT})`} no-repeat;
+    background: ${`url(${batT})`} no-repeat 0 312px, ${`url(${mainBGT})`} no-repeat;
     background-size: 100%;
   }
 
   ${device.tabletLandscape} {
-    background: ${`url(${batT})`} no-repeat 0 378px, ${`url(${mainBGTV})`} no-repeat;
+    background: ${`url(${batT})`} no-repeat 0 396px, ${`url(${mainBGTV})`} no-repeat;
     background-size: 100%;
   }
 
@@ -48,8 +48,13 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 16px;
   
 
+  ${device.mobile} {
+    padding-bottom: 24px;
+  } 
+  
   ${device.tablet} {
     align-items: flex-start;
     padding: 48px 0 0 40px;

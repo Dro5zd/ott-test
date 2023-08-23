@@ -26,12 +26,12 @@ export const StyledChannelsList = styled.ul`
   ${device.ultraWide} {
     padding: 0 229px;
     gap: 50px;
-    justify-content: space-between;
   }
 `;
 
 export const ChannelListItem = styled.li`
   display: inline-block;
+  cursor: pointer;
   
   border-radius: 5px;
   padding: 11px;

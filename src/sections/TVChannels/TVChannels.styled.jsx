@@ -9,9 +9,22 @@ export const TvChannelsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
+  margin-bottom: 18px;
 
-  ${device.tablet} {
+  ${device.mobile} {
+    margin-bottom: 26px;
+  } 
+  
+  ${device.tabletLandscape} {
     padding-top: 30px;
+    margin-bottom: 34px;
+  } 
+  ${device.desktop} {
+    margin-bottom: 59px;
+  } 
+  
+  ${device.ultraWide} {
+    margin-bottom: 84px;
   }
 `;
 
