@@ -39,7 +39,7 @@ export const HeroBg = styled.div`
   }
 
   ${device.ultraWide} {
-    background: ${`url(${webU})`} no-repeat left 1865px, ${`url(${channelBGU})`} no-repeat left 1000px, ${`url(${batU})`} no-repeat 0 548px, ${`url(${mainBGU})`} no-repeat;
+    background: ${`url(${webU})`} no-repeat left 1860px, ${`url(${channelBGU})`} no-repeat left 1000px, ${`url(${batU})`} no-repeat 0 548px, ${`url(${mainBGU})`} no-repeat;
     background-size: 34%, 100%, 100%, 100%;
   }
 `;

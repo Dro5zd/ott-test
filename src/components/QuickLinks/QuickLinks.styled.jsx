@@ -21,7 +21,7 @@ export const QuickLinksList = styled.ul`
   }
 
   ${device.ultraWide} {
-    height: 180px;
+    height: 177px;
     width: 574px;
   }
 `;

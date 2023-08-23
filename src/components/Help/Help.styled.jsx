@@ -20,6 +20,10 @@ export const HelpContactsWrapper = styled.div`
   ${device.tablet} {
     margin-bottom: 0;
   }
+
+  ${device.ultraWide} {
+    width: 227px;
+  }
 `;
 
 export const HelpTitle = styled.h4`
