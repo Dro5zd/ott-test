@@ -14,7 +14,8 @@ export const DevicesContainer = styled.div`
   }
 
   ${device.tablet} {
-    flex-direction: row;
+    //flex-direction: row;
+    align-items: start;
     padding-top: 42px;
    
   } 
@@ -34,8 +35,8 @@ export const DevicesTitleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  //gap: 16px;
   width: 288px;
+  padding-bottom: 48px;
 
   ${device.mobile} {
     gap: 18px;
@@ -46,19 +47,21 @@ export const DevicesTitleWrapper = styled.div`
     gap: 0;
     width: 410px;
     align-items: flex-start;
-    padding: 0 40px;
-    //gap: 24px;
+    padding: 0 40px 54px 40px;
+  }
+  
+  ${device.tabletLandscape} {
+    width: auto;
+    padding: 0 48px 77px 48px;
   }
   
 
   ${device.desktop} {
-    padding: 0 172px;
-    //gap: 16px;
+    padding: 0 172px 80px 172px;
   }
 
   ${device.ultraWide} {
-    padding: 0 229px;
-    //gap: 30px;
+    padding: 0 229px 80px 229px;
   }
 `;
 
@@ -69,7 +72,6 @@ export const DevicesTitle = styled.h2`
   line-height: 130%;
   opacity: 0.9;
   margin-bottom: 16px;
-  //width: max-content;
 
   ${device.mobile} {
     font-size: 28px;

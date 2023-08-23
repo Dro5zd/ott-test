@@ -10,6 +10,7 @@ import {
 import devicesImg from '../../assets/images/devices-img.png';
 import devicesImgTablet from '../../assets/images/device-tablet.png';
 import {Button} from "../../components/Button/Button";
+import {Platforms} from "../../components/Platforms/Platforms";
 
 export const Devices = () => {
     return (
@@ -22,6 +23,7 @@ export const Devices = () => {
                 <DevicesImgTablet src={devicesImgTablet} alt={'Devices Image'}/>
                 <Button title={'Протестировать 7 дней бесплатно'}/>
             </DevicesTitleWrapper>
+            <Platforms/>
         </DevicesContainer>
     );
 };

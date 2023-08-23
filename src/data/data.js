@@ -13,6 +13,10 @@ import gift from "../assets/icons/gift.svg";
 import device from "../assets/icons/device.svg";
 import tv from "../assets/icons/tv.svg";
 import planet from "../assets/icons/planet.svg";
+import platformLogo1 from "../assets/icons/Samsung-logo.svg";
+import platformLogo2 from "../assets/icons/apple-ios-logo.svg";
+import platformLogo3 from "../assets/icons/Android_tv_logo.svg";
+import platformLogo4 from "../assets/icons/LG-smart-logo.svg";
 
 export const filters = [
     {
@@ -169,3 +173,27 @@ export const features = [
         subTitle: 'Смотрите любимые фильмы и передачи в любой точке мира',
     },
 ];
+
+export const platforms = [
+    {
+        id: nanoid(),
+        name: 'Samsung Smart TV logo',
+        logo: platformLogo1
+    },
+    {
+        id: nanoid(),
+        name: 'iOs logo',
+        logo: platformLogo2
+    },
+    {
+        id: nanoid(),
+        name: 'AndroidTv logo',
+        logo: platformLogo3
+    },
+    {
+        id: nanoid(),
+        name: 'LG Smart logo',
+        logo: platformLogo4
+    },
+
+]
