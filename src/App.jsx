@@ -5,6 +5,7 @@ import {HeroBg} from "./sections/Hero/Hero.styled";
 import {Offer} from "./sections/Offer/Offer";
 import {TvChannels} from "./sections/TVChannels/TVChannels";
 import {Devices} from "./sections/Devices/Devices";
+import {Faq} from "./sections/FAQ/Faq";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             </HeroBg>
             <TvChannels/>
             <Devices/>
+            <Faq/>
         </>
     );
 }

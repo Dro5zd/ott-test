@@ -46,26 +46,48 @@ export const FormInput = styled.input`
   border-radius: 5px;
   border: 1px solid #D0D0D1;
   opacity: 0.9;
-  
-  &::placeholder{
+  font-size: 15px;
+
+  &::placeholder {
     font-size: 15px;
-    line-height: 23px; 
+    line-height: 23px;
     letter-spacing: 0.15px;
     opacity: 0.9;
   }
 
-  &:focus{
+  &:focus {
     outline: none;
   }
-  
+
+  ${device.mobile} {
+    font-size: 17px;
+
+    &::placeholder {
+      font-size: 17px;
+    }
+  }
+
   ${device.tablet} {
-  width: 300px;
+    width: 300px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
 
+  ${device.tabletLandscape} {
+    font-size: 18px;
+
+    &::placeholder {
+      font-size: 18px;
+    }
+  }
+
   ${device.ultraWide} {
     width: 400px;
+    font-size: 22px;
+
+    &::placeholder {
+      font-size: 22px;
+    }
   }
 `;
 
