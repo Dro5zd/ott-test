@@ -14,7 +14,7 @@ import channelBGU from '../../assets/images/channel-bg-u.png';
 import channelBGM from '../../assets/images/channel-bg-m.png';
 
 export const HeroBg = styled.div`
-  background: ${`url(${webU})`} no-repeat left 1285px, ${`url(${channelBGM})`} no-repeat left 550px, ${`url(${bat})`} no-repeat 0 273px, ${`url(${mainBG})`} no-repeat;
+  background: ${`url(${webU})`} no-repeat left 1285px, ${`url(${channelBGM})`} no-repeat left 550px, ${`url(${bat})`} no-repeat 0 273px , ${`url(${mainBG})`} no-repeat;
   width: 100%;
   background-size: 60%, 100%, 100%, 100%;
   
