@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {device} from '../../styles/mixins';
-import {colors} from "../../styles/colors";
 import mainBG from '../../assets/images/hero-bg.png';
 import mainBGM from '../../assets/images/hero-bg-mobile.png';
 import mainBGT from '../../assets/images/hero-bg-tablet.png';
@@ -77,23 +76,21 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroTitle = styled.h1`
-  color: ${colors.fontPrimary};
   text-align: center;
   font-size: 24px;
   font-weight: 600;
   line-height: 120%;
-  margin: 16px 16px 0 16px;
+  padding: 16px 16px 0 16px;
 
   ${device.mobile} {
-    width: 343px;
     font-size: 28px;
-    margin: 24px 16px 0 16px;
   }
   
   ${device.tablet} {
-    width: 430px;
+    width: 400px;
     font-size: 32px;
     text-align: left;
+    padding: 0;
     margin: 0 0 24px 0;
   }
 
@@ -116,15 +113,17 @@ export const HeroTitle = styled.h1`
 `;
 
 export const HeroImg = styled.img`
-  width: 280px;
+  width: 290px;
+  margin-right: 46px;
 
   ${device.mobile} {
-    width: 340px;
+    width: 360px;
     min-width: 340px;
     padding: 0 18px;
   }
 
   ${device.tablet} {
+    margin-right: 0;
     position: absolute;
     top: -13px;
     right: -215px;
@@ -134,13 +133,13 @@ export const HeroImg = styled.img`
 
   ${device.tabletLandscape} {
     top: -33px;
-    right: -140px;
+    right: -148px;
     width: 640px;
   }
 
   ${device.desktop} {
     top: -33px;
-    right: 0;
+    right: 9px;
     width: 740px;
   }
   
