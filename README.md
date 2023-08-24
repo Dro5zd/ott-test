@@ -21,7 +21,7 @@
 ## Встановлення та запуск
 
 1. Клонуйте репозиторій:
-   git clone https://github.com/yourusername/your-project.git
+   git clone https://github.com/Dro5zd/ott-test.git
 2. Перейдіть у директорію проекту: cd your-project
 3. Встановіть залежності: npm install
 4. Запустіть проект: npm start
