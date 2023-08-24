@@ -8,6 +8,7 @@ export const FilterList = styled.ul`
   display: flex;
   align-items: center;
   gap: 8px;
+  overflow-x: auto;
 
   ${device.mobile} {
     margin-top: 32px;

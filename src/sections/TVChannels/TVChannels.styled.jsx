@@ -118,6 +118,7 @@ export const TvChanneSublsTitle = styled.p`
 
 export const ChannelsListWrapper = styled.div`
   width: 100%;
+  margin: 0 auto;
   min-width: 320px;
   height: ${({isOpen}) => (isOpen === 'true' ? 'auto' : '240px')};
   overflow: hidden;
