@@ -58,7 +58,7 @@ export const ContactsLink = styled.a`
 export const SupportWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: 111px;
+  width: 140px;
   gap: 8px;
 
   ${device.mobile} {
